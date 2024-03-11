@@ -1,0 +1,21 @@
+* https://en.wikipedia.org/wiki/Prisoner%27s_dilemma#Continuous_iterated_prisoner's_dilemma ??
+* Attention is all you need
+
+
+* Batch-Learning..?
+
+<=================================>
+Übersicht: 
+	Phasen der Interaktion
+	"Lets build chatgpt from scratch - Code spelled out" -> Andre Carpathy
+	Besser beim dikreten bleiben
+
+
+<==================================>
+wei = wei.masked_fill(tril ==)... [Z.84?] auskommentieren -> Informationen aus Zukunft kodieren??
+-> nanoGPT: [Z.68]
+block_size = amount of characters used
+train_data_size ~1.000.000 !!?
+Nur Decoder -> keine Encoder [Sollte aber klappen] (Paper mit Encoder Übersetzung: Encode (Französisch) -> Decode (Englisch))
+
+NanoGPT Repo nutzen (model.py)!!
